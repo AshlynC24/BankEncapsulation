@@ -14,7 +14,7 @@
 
             account.Deposit(amountToDeposit);//this takes the amount and stores it into the balance field
 
-            Console.WriteLine($"Thank you, your balance is now: {account.GetBalance()}");
+            Console.WriteLine($"Thank you, your balance is now: ${account.GetBalance()}");
             // now we write their new balance to the console 
 
         }
