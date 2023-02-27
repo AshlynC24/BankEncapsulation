@@ -13,7 +13,7 @@ namespace BankEncapsulation
 
 		public void Deposit(double amount) //encapsulation 
 		{
-			balance = amount;
+			balance += amount;
 		}
 
 		//define a method named GetBalance that will
